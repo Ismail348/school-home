@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<title>Education Managment System</title>
+</head>
+<body>
+	<style>
+		.head
+		{
+			background-color: black;
+			color: white;
+		}
+		.icons
+		{
+			background-color: black;
+			color: white;
+		}
+		*
+		{
+			padding: 0;
+			margin: 0;
+		}
+		nav
+		{
+			position: absolute;
+			background-color: skyblue;
+			height: 100px;
+			width: 100%;
+			z-index: 1;
+     }
+
+		.navbar-brand
+		{
+			font-size: 30px;
+		color: midnightblue;
+		}
+	
+	
+
+		.main
+		{
+          width: 100%;
+          height: 600px;
+          padding-top: 120px;
+		}
+		.main_text
+		{
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			color: white;
+			background-color: midnightblue;
+			padding-right: 20px;
+			padding-left: 20px;
+			font-size: 40px;
+		}
+		.welcome_img
+		{
+			width: 100%;
+			height: 250px;
+
+		}
+		.container
+		{
+			padding-top: 60px;
+		}
+		.teachers
+		{
+			width: 90%;
+			height: 200px;
+			padding-top: -40px;
+		}
+		.card
+		{
+			background-color: blueviolet;
+		}
+		.card-title
+		{
+			color: white;
+			padding-top: 20px;
+			padding-left: 30px;
+		}
+		.card-text
+		{
+			font-size: 20px;
+			color: white;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.b1
+		{
+			background-color: red;
+			color: white;
+		}
+		.b2
+		{
+			color: white;
+			font-size: 16px;
+			background-color: red;
+
+		}
+		.b2 i
+		{
+			color: white;
+			font-size: 35px;
+			background-color: red;
+
+		}
+		.b2 h6
+		{
+			color: white;
+			font-size: 25px;
+			background-color: red;
+
+		}
+		.b{
+			font-size: 50px;
+			background-color: white;
+			padding-top: 15px;
+		}
+		.slider_img
+		{
+			width: 100%;
+			height: 600px;
+		}
+        h1
+        {
+	padding-top: 15px;
+        }
+        .lable_text
+		{
+			color: darkblue;
+			display: inline-block;
+			width: 100px;
+			text-align: right;
+			padding-right: 10px;
+		}
+		.input_deg
+		{
+			width: 30%;
+			height: 40px;
+			border-radius: 25px;
+			border: 1px solid blueviolet;
+		}
+		.adm_int
+		{
+			padding-top: 10px;
+		}
+		.awen
+		{
+			width: 30%;
+			height: 100px;
+			border-radius: 25px;
+			border: 1px solid blueviolet;
+		}
+		#submit
+		{
+			position: relative;
+			width: 15%;
+			left: 5%;
+		}
+		.admission_form
+		{
+			background-color: lightgrey;
+		}
+
+  
+
+	</style>
+	 <div class="container-fluid">
+      <div class="row">
+        <div class="head col-lg-10 col-sm-12">Opening hours: Monday to Saturday from-8am to 10pm</div>
+        <div class="icons col-lg-2 col-sm-12"><i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter"  aria-hidden="true" ></i>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+         </div>
+      </div>
+    </div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="emp container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i><b>Educators</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="project.html"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Admissions.html"><b>Admissions</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Academics.html"><b>Academics</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Campuses.html"><b>Campuses</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Updates.html"><b>Updates</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+             
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="slider_img"  src="http://www.whgs.edu.pk/images/gallery/195-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="dd bg-dark">WE TEACH OUR STUDENTS WITH CARE</h3>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img"  src="http://www.whgs.edu.pk/images/gallery/197-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3  class="dd bg-dark">DEVELOP PASSION FOR LEARNING</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img" src="http://www.whgs.edu.pk/images/gallery/7-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="dd bg-dark">TO EMPOWER STUDENTS, WITH KNOWLEDGE & WISDOM</h3>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="welcome_img" src="http://www.whgs.edu.pk/images/gallery/3.jpg">
+			</div>
+			<div class="col-md-8">
+				<h1>Welcome To Educators</h1>
+				<p>It's a pleasure to welcome everyone to our school assembly - thank you all for being with us today. We know our students' accomplishments reflect the great caring they are shown at home as well as at school and we're especially happy to share this assembly with you.On this momentous occasion I would like to express my thoughts on education it's a fact that education shapes the life of an individual it shapes the life of him too more over he's respected everywhere .we can't gain respect without giving respect .for studying how to give respect we are here for.for that we are getting educated.Since this is for school, I assume the assembly will be filled with students. Therefore, I encourage the students to get their minds in the game by responding do this because it draw </p>
+			</div>
+		</div>
+	</div>
+	<center>
+		<h1>Our<b> Teachers</b></h1>
+	</center>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="teachers" src="https://thumbs.dreamstime.com/b/portrait-young-male-teacher-background-school-blackboard-teacher-s-day-knowledge-day-back-to-school-study-159722312.jpg">
+				<p>Our curriculums assist in self-regulation, empathy, mindfulness, gratitude, and more. Full curriculum, storybooks and classroom tools. Effective, engaging, accessible.</p>
+			</div>
+			<div class="col-md-4">
+				<img class="teachers"  src="https://academiamag.com/wp-content/uploads/2022/02/professional-development-tools-for-teachers.jpg">
+					<p>Our curriculums assist in self-regulation, empathy, mindfulness, gratitude, and more. Full curriculum, storybooks and classroom tools. Effective, engaging, accessible.</p>
+			</div>
+			<div class="col-md-4">
+				<img class="teachers" src="https://thumbs.dreamstime.com/z/school-teacher-explain-things-well-make-subject-interesting-what-makes-great-teaching-complex-multifaceted-activity-smart-135925063.jpg">
+					<p>Our curriculums assist in self-regulation, empathy, mindfulness, gratitude, and more. Full curriculum, storybooks and classroom tools. Effective, engaging, accessible.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title"><b>Our Vision</b></h1>
+        <p class="card-text">The empower student with knowledge and wisdom to thrive as acadimacally sound, technical proficient, morally good and socially adapted citisen of global society</p>
+       
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title"><b>Our Mission</b></h1>
+        <p class="card-text">The empower student with knowledge and wisdom to thrive as acadimacally sound, technical proficient, morally good and socially adapted citisen of global society</p>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	<div class="container mt-5">
+  <div class="row">
+  	<div class="b1 col-lg-12 col-sm-12 text-center "><h1><b>Principles And Core Values</b></h1>
+      
+    </div>
+     <div class="b2 col-lg-6 col-sm-6 col-6"><i class="fa fa-users" aria-hidden="true"></i></br><h6>Facilitating Leadership</h6>
+      <p>“Leaders are born not made”. At WHGS this cliché is reversed as “Leaders are made not born”</p>
+    </div>
+     <div class="b2 col-lg-6 col-sm-6 col-6"><i class="fa fa-graduation-cap" aria-hidden="true"></i></br><h6>Passionately Pursuing Performance</h6>
+      <p>At Educators we believe in motivating our students and employees intrinsically and extrinsically to achieve excellence.</p>
+    </div>
+<div class="b2 col-lg-6 col-sm-6 col-6"><i class="fa fa-trophy" aria-hidden="true"></i></br><h6>Technology Based Teaching</h6>
+      <p>In order to compete with the modern world our mandatory and optional course work is IT integrated.</p>
+    </div>
+    <div class="b2 col-lg-6 col-sm-6 col-6"><i class="fa fa-handshake-o" aria-hidden="true"></i></br><h6>The Teamwork Approach</h6>
+      <p>Collaboration leads to new and innovative ideas. Therefore, we believe in honing team work approach.</p>
+       </div>
+    
+    
+  </div>
+</div>
+<center>
+		<h1 class="b">Life At <b>Educators</b></h1>
+	</center>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="slider_img" src="http://www.whgs.edu.pk/images/gallery/11-1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img" src="http://www.whgs.edu.pk/images/gallery/187-1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img" src="http://www.whgs.edu.pk/images/gallery/217-1.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<center>
+		<h1>Our<b> Courses</b></h1>
+	</center>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="teachers" src="https://explorehealthcareers.org/wp-content/uploads/2016/12/studying_science-300x195.jpeg">
+				<h3>Science</h3>
+				
+			</div>
+			<div class="col-md-4">
+				<img class="teachers"  src="https://media.istockphoto.com/vectors/open-book-with-history-doodles-and-lettering-vector-id1092170968?k=20&m=1092170968&s=612x612&w=0&h=xuN5I9AhwUps398V6UqE1HL84Dcb4AheOPu9NeKJcrE=">
+				<h3>History</h3>
+			</div>
+			<div class="col-md-4">
+				<img class="teachers" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFRUZGRgaGxoaGhsbGxseHRwaHBsdGyAiHSMdIC0kIB0sIxsbJTclKS8wNDQ0HSM5PzkyPi0yNDABCwsLEA8QHRISHjIjIykyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQACAwYBB//EAEYQAAIBAwIDBQUFBgQDCAMBAAECEQADIRIxBEFRBSJhcYETMpGhsQZCUsHRFGJy4fDxFSOCsnOS0iQzQ1NjorPiJZPCFv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACQRAAICAQUAAwADAQAAAAAAAAABAhEhAxIxQVEyYXETgbEi/9oADAMBAAIRAxEAPwAlnt8Tb7x7wGDXM3ey2z3wFBgEZJ9K6XhuzrjYUQg54gdCY9MVtd7O0zjvR0mcSNq8iNI75SsS8J2m1lQgL+bRPp0otO0WYyXnn3iTy/rlWd7hSCTheUEavpWV2wfaDSjYAwBHmTyPqRV0ibY1s9o2zhl5jqsY6Uba4ZCNcRmJO3XfEdNqSq2dLKVPIiGJOcDlyB3pnb1QSbiqJg4Y5OIC4WfHNS8cAaLbKknUrQQCADAmIz0jn41S1qnIAiY0QWZpJyRPTofOtkd+9bTS3U3ITkcZMYB2j0EVVrd23BV0Uk6iQyE94fXMCBU2OgLiFAmSNJOTEtMjYkx4SDFYIg7pSCGwojPkQYBHjPOtOK49rh9nr1FgPurOqesb+mxMxWdzi2tjTa0a1JLSgycfeYREnEACnTDANxpTUAW0hZgDY7mAeXX8zXqcSsd8BhpOkE5xz2jGOZFD8fx9tz30BI94qCB5H16RWly2qy5SUOZVPdEGcSZAPhWlE2Z8RbuLB1TPQkj5D5Vg4Y7k88AbiKN4RgsWz7o7wBIyI3iY/QRtTa3wqMupCGWMwQdvI7Y3+OKe+hNHNWbC4ZiTJIxvMSf68KI9ooJmZ5liCB54yuN6txPDhXOk+Q3332PzOKhaQQY1TIKw3dI8Z2x41TdiLcP2YlySoCvEj8LdINJeJ4W61wI6lT40/wCHYhQHbUNUyCBHiO7Ibbw6044e5buDTcBIG1yMqejeNYSTi9yyaxmnhiBOGNx1tJ7qwDXW8BwwtAJbAZ9ieS0vHCmw/s1GovnWNiDymmnavaC8NbhQNbDNc85bqSN0qFHaBQuwZzjdoG/OOgpXe42wiwiyepyfPwpVxvHMSZM/SaB9pk4kziK2jDBEpBr8VceYMDqcY8BQl1iICLqY4BP9YFEPc0rnfpS3iePbYHJ6ch+taRTbIk0jR9Ns6nbW/T7orFeJe60KOfwqvDcAznvA+VNA62u7bAL8zyFW6X2xK39IJ4bhEtLqeNXxJPhQfE8WztpHr4eFEWeGe5tP7znl5VV+GAm3b5e+/QfqazTV5yx5rHAu4VGe5CiSNug8TTVLAWQDLH3m5/8A1X51WygVdFvAPvNzPXNYX2Y9xPd5t1/lVN2xJUaW0NxvZ2/9TdPBaZNw9qwo1Qzcl3APVuprCxcFtNFvB3ZuZ8ulCuurUWMbDxzknz5UufwfBS5cucQ5JkIOn0HIU0ti3ZAZgOWlRnlQTXgij7oHur18WoS0bl9p2Xm7bR4dabV/gcfoyb7SX/u4HIdKlV1WV7ukGOZ51KnbHwdy9Htjt5gRbQnIiOR8cCvOJ4i+/vuAJwFksdvwjrjNCjgE9npLKrRlACIJxGDnI51e61y2hWTqVAQqgBVE8upI58pp0ujM0TiRbLAJHLJmTzgbRtnNaNF3CqBM5B1DaBAgTtS7gB7Q6rmdJOeZ3gnPe/SuqS+qgKE9mdIIbUD16e7JEUnhjsA4dgux1lACYEaQN5gZnH9bMrvCm9blH0sPeCgqInBJn51il3UC+nW6TBOoFsdTEnyO1epevaAvs2HeEmQNQjbf3QOWJ+VSxE4bsS+8qzSkRDZ8JznxmarxPYl06VRR3RpVwRtuCwjeZzTO12igtjW4d5gzOk5wpBA9BFap24zphWG+8ArEYI3g8qWQtnJ/sHsLoJMMAJDKee4BODv+lC3UVu6zEATDRBgnYjfkc866E8eLjlYlRvM6rZjr0mslS0X0lyOkyytk7as8s4G1XkLOdu8Ap90jmTnusNs6t2z/AFNby4SCsBdRyo7gM4I1ZkRjyNdC/CoWW37QaJ750ACRsMfn86SdqPct3nQXAcDvAYYR9OUDFO7EZXxbSypB1licKWJQ4AZQBg746Ghu/bymWIw2QCBuCu4Y4Ec81m/G3ZB1bDkAPpE1q/atwmWcGQZGkRB8AIp0x2ePwLsFuC2NpYGR8J2yKE4nil0wVhp2WZ8PGfCpc4lzsx6+fnVWCvuFnrA+cCrX2SwW3xTTglsd4Zz1pknaJGNl3Cg7fHpneIrMWQMaVg/uj9K9KLiVQ+BRT+VDaYh92Z2wF7rd9I93G5jKsTgia17V4BbqC4jFxyxkdA3686TW+K0iAFz+4n6Vta7RuoZQqvWETI6bbVhPTTdxwzWE6w+Dm+N4NlJnr8KwV9AMDzJrqrvFs+YQnxt2/wDpoL2hJzbtGOtm0fqlaR4pg5Lo5cu9w90HwovhuC0H8Tnn+H+ddCvGlMKlkdYs2f8Aoqg7RbZbdnx/yLP/AEVbfSJtdixrgTurlzz6UfwPZqrBfJOY5+vQVtb4wjPs7APUcPZB/wBlat2jcP3bUHrZtZ/9lZSi+mUprtGd6+bh9nbIVRl35KPzPSgOJdQNC91BnxY9WPWmLdoOoKhLUc4s2gCf+SqLeZt7dr/9Nr/opKNDcxMLjP3baz47D+1GcN2TckanjwUU5t8QyDAtr5W7Y+i17/i1xTKlAeui3Px01X4K12Y/4GijVc1CeRYyfOl3EX7VvCW1LTjE/wBzRXEdo3bsyVPWUT9KpZULnSk8zoT9KFF9sHNdC5eCLTcvHHJRuajcQSIVcnYDZVG3lTDiLjXN4gbd1R9BWlo+zGAo/wBK5+VUKwa19mmYBmaCcnapXl28WJJMk74qUZ9DcvDueH4K3JLd4LBcFVA1Ho0jGec7msOK4IF4EMxU6YICjHeExDRJwBmhkBLIuWkGWBiBkgzMEzG+RIOKtxB7rEZuW21apy45SZ7xGneswRTgOwm1b4LTEeOJnnnwrqrHZyMveAaO7I8/HE7/ACpTwHEG6ntCASIEw0Axhvjv8Rmj+G7QZB30YtkTyfPIQJbFRJsTXgY/BLbVoSZBz0/l4cqSdp2QM6oyTC6ZI33Mz6bURc7XuaIfuqcBwds+Z1MMYx+qZ0JcF2OnUNmKAHOd+8udqcUwyuQW9x66mEnXju5ZjHMnJBj+1eHiAWyGDAAyP/61QI2gR6VpxyjCgKDOnnBBIBmPl58q1bs4tLElW7uqJBJ8gCAT4VdoBc6rqZkVyqn34DAmYMw2R6VkRb3FxoIMSNJEekEeW30J4qzpAnW0gGBEAESMafPB6+tJeMuzAETtmROefy8quORPA2ucXrEamnEFRjGIbkTQfFN3ozsJkyfXp5fOgrDEtKmSZxMAR54PLbqKIvuxI1gAwOf5jenQiMFA5/SqBFO81pbbxzRMAiflQIwThrjg+ytswBg6VJz0OKsvZ16MWnB/4bfpXq3bloF7Vx0I73dYgSOomG2512/274y4lq2tt2TWx1FCQYA2kZjPLpUOTTSFZwQYg6HBBBIM4IP6+FVeVMzjrXjNqJY7+OZ9TzrxHI3E1YzxWzWjMdx/XKvDZByPHHMVYDAM0AUAjc56Cre0DbyKgtE5r0pHKf1owBi1o7RVgkYFbWjOMR9K0dgPdG9SykZrbAy3wqJnPLlXqWixosIqjNKxgyWJycCrtcC4FeX704rJeHZt8UgMnvE+NepYZt9ulEi2E5V53m2qrA8FtV3I8hVILmAIWvWCruZ8P1rJrzNhcCgDd7ioIG9YpaZstgVta4YDLZNZ3752FC+gLezXoflUrDHMmpToA7gOKcZ1oygDmcHkc5DVtwd0KpDglidTDJIkYHjOdj96g4t3BaCjSdZJUARIGZI8qvwjhbjBwwMkxP3dhkriKGrCzqOy20hVkqZOoj8WDBAIEDaKu/akHIG2doJB5ScCRyznypDwHEMXFuCQ0EgyIXeQcZ5+ooq4BkkQgMgQdSscknIjcHl+VZuGR2Yv2uj3FxOltgYAO8yNz+ZmsOP7VTULekkgEhskahzM4O9K+ItrrYIRqDTHUMInwiKZ8LwfcUlWkGF7pPpjr+Zq9qRNsztcc+rRBGqd1wOhBnbnTpO0FtQpMHaSOWN+q59DtzrEWrbmbulX90AicDAXJ6DflQnEcIUUjMajChySQR95ifd8hGKWGAPxvFDUWVmg4cMSOu07idoFLeMYsdSDwECJgfePXnTM2NOltIGTqDFgw3ET8POtrYt4a2ADEBs6SBPMjJBny3kirWOBcnPdnWncQQAQcAjnPPw8PCi7tjQcCOuMZ6dRTHhbavc7pHPVJhMHOrz5HyoXjnLOSV0+HQcvSKbdsVAxJAyK9S8RRSWxGd6FvpHOKQBLXwUbrpP0rsvt+s27Wdmb6CuAeQrY5EfKvon25buWh1ZvoKzn8kLs5PsDs39ovC1MLBdz+6IGPGSB8TWj9p2w0WuHsMgMBXDs5A5li2CfAY8a97I7Q/Zry3ACywUcDco0GVncggGOeRzptxX2dtcQGu8FdQyZKExpY5jqp37rCm3TzwDFPbQtf5NywmhXTWyEkgNrKkHOIIIx0pjwdiw/CXOIbh1Do5TSHuaCTog+9Oz9eW+a57iOGuW2ZbgKFSZB8czHPrNPuzjPZfEZ/wDG/K3RLCwAhuE6vdAB2AJgeAkkx61VmjqfOorGIOfrXl5Ty/mKoYw+zvDLevgXIFtO85OBkhVWf3mIHoan2g4X2PEPbGFnUoG2lsgfl6V5xFv2fBqkw/EN7RjORbQxbHqxZ6afaY+34bhuMAyy6Hjk2Z+DK4qbyTYl4fjAmTbVwBlSzKTzwynB85FdB9pew7aKly1Ko2GBJOSJU5JjEj4VyDkhGPgfoa73h7wuX+I4Jzh0Rk8HW2gYD/2tHg1KarKHdM5RLKr509+zfZqXnb2g7gGkCSNTnOIM4UEkeIrnr4ZSy96VJDCJgjBFdN2Qpt8Vw1ifcW41zxu3E1Gf4QAo9al8Dkc/2pxFtbhCW1AR2AE3DqAMd4lp5fdjem15LP7EnECwNbsU067mgEMwJwwMd3aedKuO4T/Nuf8AEuf7jTq6oHZlkHYXH/33Kb4QPo5vguzXu3FRRLMcDkOeT0AprxaWOGJthRddcMzEhA3MKqkFo6k00+xxH/aLg3RAF9QzH/avwrii7OZ3JyT4mhW2Mb2+3UDD2vD2Xt/e0IVcDmQQxmOnzqvbXAonE3FQQgK6RJOCoOCc86X2uGznP0o5EzvJxkmfrVYXAVRl7L92pRVSgNwiPDNc0svcuCCejRiRG55kfOj7lu5J1tIgadoHKY8xv5VkLQtkOkxJAGMHlg8vjRSTClnAZcBjOe9sQcE5yD+laNgYJYKqCGIlgC2Og/Ecfl0zThuEe4qsp1QIYhYD5MSfz86ytWEJCMACNUiO7qZgZyZ6j9ac8OfZsqBgFAgKYjpBkCPMHlWUpFI5p+GuKZ0yhOdpnmPA/DlRnBkqwJOpRMEAsA24DA4E5gz16V0XF8PbtmSAg2GzFiZHemTHQiKR2LjFijNpx7phSYBkkgCOQoUrFwEKzXSFIKGSYBVYGAwkg4wfnNFcVZC2+8g1QQGEnujkDBHOeZxvVOFUAoEhxDKNS4E9GxjOOknmRQje0CEJELjT91oaBJJmcfXyoADvWdCl0YusDKQ2IiCu5GfhNY8XcRh3m06eSjDFd5jYxyIHlTvhrGoaidMjvgaRLb8ogeHhjpXnEdill1SBMSDmTOD1jMxjanYCH2bAhVJgEwQssJHPkF57EEZFY8U5Vzr5AQZOQBAOa1v2Llth3iSTghhCknfvDmJ2zv6Z8babWfaOHaAWaRk+GN6pCZYXBETB+tYlcSII61VJXOOnlVWY86YjO6IV/L51332/eEs/xOPkK4/gu0BbOr2NtyCCDcL4jwDaTnORTPjPtW99Qt2xZcAyPfkHaQQ0jntUSi20xdgPBWGuLdj3kQPp/EuqGPoINCDiGRxctsUcbMMH48x4HBons/tO5ave0tKgJBXQ2pl0sQY97V90ZJot+0EJL/sdkPv7zlJ/gkD0mKrIB/2vve0tcJccBbj2wzgYwVVo8tRMetU4CP8AC+J/435WqQ8dxly7cL3G1MY3wAByAGw5QKYWPtEVsmyOGs+zY5Um4dRMZJ1TOB8Kna6oBSinecUwTs24eJThye+WUMQfdBAZp8VUmfERV+G7TS24ZeEs6lMiWuGD1hnI+VEWO3Wt3Hui1aLvq1Mxc4YzpHeheQ2nFN2Fst2j29ca4wtOqovdQFLZGhcCCyk8p9aZ9gcY/F2OJ4e6QXUB07qrg5GFAGHXf96uPvQ7Sqqgx3QWYemok0d2N2w/DNqW0jPBXWxedJIMQDHIZ8KTjjANAfEt3GxmD9KddvXmt8a91PeRwy+OlQCPVZX1oS52gpf2h4a1OrUQGuBdUzMauvLas+0u0jeb2jW0RyZZkLZMRsxIHLIquQOn7S4JDfTjVzYKe3bxdANK+bEpjwaln2c4s3OMtM3vM9wk9Zt3CaWp2tc/Zhw2CgcuDJJgnVp8gxJB8QOVW7L7R9g4uLbR3HusxfuyIOAQDic+JqdjqhdBPbFv/OuwT/3j+XvmjeMVv8Ksgb+1f/fcpbxXa3tHLm2isW1NpNyG6yCcT1FGv25qtLaNq1oUyolwQZJmdUzJPxqXFqisst9iuJFq81q4e7eUKDyDrMD/AFBmHmAOdL+0OzjZuNbYRB7vivI/CsHt6tzjpTG12rcKhHCX1X3faA61Hg6kH4yfGjux8MC0QIHy3NFcbwfsiEb3tKs4/CzCSvjEjNb2e1BbbVb4e2HGxZnePKSBNK+1OMuXHZ395t4GJiMUZbBWyrcZUoZeFY1KqkMs9tyMQoGMtmPKOeYB60OLgVjO2xJECB03zmmP7XI0tq1SYY473xz6nE7c6C4vs/V3yuoycqOQ3icGtE+gocIwuKJZRGRcXfaRIn3YnEzXjm4BpLd45EasruM5G2TnwpTwz3LahsENMg/KejUzXtBLqgbjB/hPOOuTMeArNxopM0PHlyFeAdwXPdGdjtI6DzrZV1ANB9phtUd2NoHeyOcQYjeBQL3DhDDDkRtE7GME7b9DO8UVauhNJUxpE4JjoRBMA+O9FCNbfEFTChSdTe7kDOqRsOZMz9Kz4/tBo7ydfHVuckkdMf2rL/EwnuwqHoswTgmY3OTyGalxFuHDQTsVBg7D/m9KP0KMR2wRBEYiVAJI8D1x67U37Oc3CC50DYH3sDr0PIHlShOysNbJJncRmRyBOAPE461nxdm9aYFDIHJOsAbAHJ6/URSdPCCjo+0OywT3Xllz3ok4xP8AauX4y2odoUrzgkHPOCBVhfYzqkHlLNsBIidjy8atxV06slTtkT/U+FONoTBQ8RGaqyEyTtmtHuVgSTVkmbMNqP4bsq+4BS1cI5EIY+MbV0X2V7PtpYucY6BymvQp2GgZPnOPCKScV2txNxtZ4i4G6I7qB5KpiKndbpCsHfg7ie/bdeXeVh9a1MgDV/X866Xszt25c4Xibd1tTpbLK5ABZDjvRjUp58wRzmuaa/Qm+wsCurDT1r1YHlHwqXZNUS34/WqGWcGR+X69a09nyNeIDzO/jHyq0jaYP1oGQ2lABnzio8c/69KowPPP7uKjP4b/ANb0gPEuGYEeVXe3IkDbcVkbe2J/rlWmsjc+VMCgbGPKppNXCh8jDdOv6VVHgwRTsRYLjNVbaKu1ZsMUgLWnIwaLt3MUAWr32sVLiWnYzRsVX2goB+KxWZu1NBSGurxryl2vwNSih0OeJ4X2tv2toj96SNSseRH6zQVl4Gl1ONjJ+MdIx8aITiNB9pbXV/5iggBlkktB6HkNs+FGp7O+oa13cTpI7xzyMQRIHzqYamMlT03FgPsDP3gIzyGfj3RB/rYG7b9mWZDvmOTchuYnY4py7uuGJjPlsMY2EqD8PKk/GoHkSRmJjx2HjPxx5VqnZmBNxuo6EXVE6kEZ5EmOe/xq1pyAWDK1scoOCORgEscnlny2Fu2GDSMMMDI+MZny/tW1u8jwzQrAAHAhsgf15+NW0gTNLF9DyZQRPQEb5Iz0iPHeqX+PCElTyGobx0Mbk1vcskZTV++kBt89ecjbrzil1zh9bHQjDViFyCR4MQZ8KFQBnD9puDNyYJMxPLGZ2+VdZwPaQdQpMCI14JHmDkrzk5AriQXPcOwxEbnkPeo7hnKyQGDHY6TAnxEx6/3icExpneWOEtHMaiBmRgiMETg+VJe2kt+17gAXSuByxQPAdo3DMksoxicHxmZxWfG3wz6pIwNz0EVnGNMJF/YrtFZPw3Sqrfivf2ielaEHW/Yzirb2n4O5E98gfjR8tHiCWnpKnnS3tH7N3rJJQa05Mu4H7w5H5UkUbHIIMqwJBB5EEZB8RXQ9n/a+7bxdAuoPvCFuAf7X9dPnUOLTtE8HPujAkgnIgwSJBOQY3GNqY8ElheGa7cts7+0KIocqICK2TBwJ6cxXTdpdn2eNs+3sEFiCQQI1Fd1ccmxGcg1wGsxgmJmOQJAHkDgfCnF39D5Oi7F4Xh74vE2WT2aBxF1jqnVj3RHu/Og+zL3CXLqW7nDsodggZbrGGb3ZBUYJxM4oz7He7xh/9FfpcrnVIxvEyCMHVgiDyMjejtoB12Hwtm5xJsPaOS+lxcYEaZIBWI2G4NB9qC2t1rdu2VCOyyXLFtJ05BEDOaN+yLk8bakzi5/sNAdpsTfugY/zHz/qajsfZfgTbNxVuW9Ss6LKuUZdRC4EQYOeW9edqvZS89u3awjsp1XGOvTKnb3cicdKw4NP8xJ/8y3699a17YQftF4xn2tz/wCRqfYdjhuG4YcHb4n2DanJXQbjAAgsDkCSO786Upf4WYucM6D8Vu6WYeOlxn4+lNuJx2VYj/zG/wB9yuVLRSirsQ67U7G9lbXiLLi7YaIcYKzjvDzxPI4IFZ/Z5LVy+lq5bLaywDhypWELbRBHdPTenX2I/wAyzxVh8oQG8B7RWBj1QHzmkP2TaeN4f+Jv/jejprwVlu21t27r27dsqEYrqZyxaMHHIUx4LheGucHc4k2WDW30aRdbSfcMgxIEPt4Uo+0B/wC13/8AiP8AWnf2f4ZrnZvE2006jexJCjC2jknFN/Ff0Aq4TiuFNxVfhmVGYKWW8xK6jEwVEjOc1D2QLnGPw1vurrdQTnSqEyfEwD8ql77McQqM5FshVLH/ADFOAJOBvQPY3aj2L6XyCyqTqE5ZWBBifvZkTuRT9oPwM47i7Fm41u3wyOttiha6zl3K4JGlgq5nka17UscO9uxesWzb1i5rQsW0shCkZ8ZzzEGnHH/Z61xhbieDuqxYyyExDHfxU+DCuX4jh7lom3cDKRnSfHmOWY3FQmn+lxyXmpQPtDUp0XYN2T2gQ4RjBBMHoenlHLmK6N+5/mWUhxDMmIkbMgOI/eHXNcQScKdxhST8FY8x0b893nZfaMxbckMplTzU/n5c6jV087kdEJ3hnT2L9rikIUlbje8hwQxOfLz2zQDdm3VBUhiu0/hAPjVzw+qXTDgd4AnS6dVO4XfB93NOezeJF3UjiHQAlS3eZTtsczHLzmojqeEamnSs5d+BDCDvG/LbBJz3pjM8s1OL7KaBiSRhsRIPUncR866HjeEAQxCJJwOTHmdseH1mli8UFDpBbu8vDIz0x/U1upNmDFFnhrgeLjaTmHMAeRnzO3hFFXE7xa378ZG2sbSPLqM5FH8TxFs29JbH3T94NymAPKfWg1tNJLMQyqdsQBs8feWOXLxptggzs7s629tiWBEDB6jpmZ+HlQIOnUAABgSQTnPvc5IyIjNaXzcYFk290wse0B3IG0H44pp2bwqXVDNcKfeYnAG+GIwfy8ahuslC5VYtp2IYaWHdMdCep+ArLjk7/U4kzvgHfr+lOnZ4UWwHDkCXUAA/6SIBj1oHtFGV4YICFGFMj+dOLEwByOkn+t68Vc559NvnXiEePnWgcDO/6eFUSNeJ4PVwdniEUYDJdj8Suyhz58z5UriTnw5ec027H+0Nzh0Nv2SXLbMTBJUjVuJhgR6c6j9qcGTq/Y2DdPakJPoPyqVa6Jsc/YlvZWeIuNIQMGzzZU70dfuDzEVyDKcnSB08KYdodt3bqrbAVLYgKiYUeZ3J36DwpeVA94zQlltjSH32QPd4zr7ET8LlcygaOginXZfbi2FdU4dDrAVybjZEHomB3jt1pdfYMe6mgc11luuZKj+hTSdsSGH2SuKvGWZxJdR5m25H0ihu3A1vibqkQdbHzDEkEeYINAFSCCGIIIIIOQwyCD1BE06ufaIXVA4rhrd5lEB1c22jxhT8jHgKGndgAdlo1y/aQAybiH/SrBifAAAmsu07+q9dYGVa47DyZyR8jRN3tsBWSxZWyGEO2pnuEdNTAQvUAUrDgESNQH3Z0yPODHwqks2B0/Gt/wDibB/9Rv8AfcrldVPW+0iNZXh24NfZrsBecMDJMzo3yfjQS9sWbZm3wia+RuXHuQf4YUfGlFNXgQ97Lb9j4K5dfD8R3ba7NpggNHTvM3lp60p+yhH7bw/8Tf8AxvSrj+Pu33L3HLE/IdABgCt+xu1V4ZxcFkXHWdLNcZQsiPdCETk5nntRtw/WOi32jJ/a78D/AMR8+ppx2UB/hPFTke2E/wDLZpB2p2kt+4bnsdDM2pwLjMG6xKDST1z5Ux4b7SpbsNw44NDbckuDecliYySE37q7dKGnSQHPgqMhVEc4FM7XZNx2ZCe+LPt1TcsuDp8G0nVFe2e07CMG/YkaDMNfcj1GjPrXv/8Aorn7Z+2Iih/wEkrHsxbiRB2Ez1iqp9A2xdw19rbC5bdkcbMhg/zHgcGuz+0nFe24Dhr1wAXWMEgRqADaiP3SVVvCaRX+1+HdzcbgVDkydN5whPXSE+QIoLtPtS5fZWfSFUaURBCIvIKPQVLjbQGVSstRr2nRdiFgbbaLnuiQDvA5g9UPTl8DRE53PgSfgGPMdG9DnfWwQ49nc3zoPP8Av1oRkNpij5XpyAO/mnUcvgau7x2XVHU9i9pGQrEq4yp8fzB5/wBqfPwIvD2lvuXEIOkbThseBiejeea4JHkAycbNPu5iD1T97lzroux+2GnSZV1xnpvB6g/2rj1NJxe6J0wmpLbI6bhuOTiD7MqVugZBnS/ipOJmQP5Uk7Vs+zMGQJwM75jb12ppc4YXRqtko4hmUAFgZnUsxM484xBqtjjbfEsbV0BLwE4On2kGJG8Y3nbanpalmOrpbeBArtOkCMyCBPLG+IzHhTVEVlUORA7ynJ0yQTnacxk9fKpe4CG0RoAbYht5xnmR4/zrXhuHtAqty4yqckD7pBIznGN/pXS2mc5twtwr3bkqZ1EgwH8MA6eZgdcRWx4drf8Am2xqBP8AmIR3T1iQDIHRegBNYcRZtFiHZimwKFSMDGmMRqG+wMipwXExqtqzHGCzIA2IGIgkDO9YyXaLT9JwFuWIQgWj3tLAt7N9QgQOe8dc0F25cm40DTyyNz1AGwPKjTZuINSqqEhQ+tlOsMCQSIxz2xzG1KO0n1XHxEHbUT9dxTjyDMieufAD614jgTj869ReREV4GHn8q0JNNRIE7fSsi3IAeteFj/KorDpiihGtowN68KyZqq/KrqfhQB4BVis/D+vzqGvNdMRV6zLV5dvCh2uk7D1NAzRjG9ZNd/CPWqeeamo/2/Wiwo8I6moSBtUivVQ8qLGUjrUgedWJA8TVQpPhQB4xquTWq2wK9b4UWFGQTrmvTXteE0xFGNXjFZM1XD06EezUr2RXtAzLjuDBAK5BAKsOfMD+MZ88+NUtN7RdDmHEweo2kePKPMUZbuaCwbvI2WA2I/GnTO4GQc0Nx3CEHUDP3kZeY6/xDmOYHwxUun/R1uPYsa01swcRv+7ykfu8iOWxxBrUNgFTBGB4Dp/B/t22zTFSLywRDr05+IncHP0pc6lMRhZwOU4nrp5c4mDg1opXh8mbjWVwdD2T2qWhWOl190nkR90+FdBxAXiE1CRdQzAgHWNj5+I322OPn5/EMR592OR/d8eXlBro+yO0mYiCA6iM7MPwt+R5Vy6mnT3RN4Tv/mQ8s8T+1r7O7i6sxAIDiSJE7PiCN564JxucI+ok5YCFBzgCYHz/AKFU43s/9pAuW3Nq6pzGCGA2b058xG4ovgOMN3TbuAi9aKgxpOtSSNUemcdOdaQnaMNTT2u1wWssFtszLOokFdmUTM5nrHrQvE8Nqc6F0yAwK50kdJnI8x8TRV8HWMFgAQxgxEGAPHHPeh+0eKF1dFu3oGdQ3AY4kzPhj1rVGBgOPuaSjaswTpkgwQN8wDHL4Vlfi5cJClBiCZiSMeOTHxnatrd5FMZ3MXIPgSQPU9MHFE20VzpOH6sRtPWPLnH5rakVubQna0dZXJzvy/vRtns43CVSWbeIH6+R8qtesMrQVUbSZETmQfGcAz1B5Rol02wGldtwYIxzxv8Ay9WI8Ts3Qf8ANDjHKBvzk8sb0K/DKPxEZ6COnxJ9KMuca7nUXLQMaicQPHG5jHQ0Hc4tVmcCCB4TAkDx5+Qzij9EevwyLmWK9cCfIZifl41X/L0ltTADmwAnJ/Sk3GduqICeMFjPyHw9NqW3uJZvfLeAMjfoB3o9F86dMpRsecT2nZWANbE8l00Oe0LcS4ZR0lS3ywPWkq3uSgnrAEesGI8y1apZYd5mCz0P0Y7f6RQ8clxgmH/4hYn3LvmSgnyESfhWqcZYY5S95Tbn4AfWl1iFbA1dTkCfE+8fU1vc4UwCzBQRMLggeW/xioc0sGi0+xib/DYlb5PQG2Y+UV6vE8N+DiAOuq3+mfSlacXnTbt6jzMSMfL6movAO8lzInIBhR/ET+tLc1zgf8SfGQ49o8HMKnEufA28esRRNt+HfBTiB4arf5Cl49mg0qNR2hcAHz/tWd4ORBIVTJAGAPLmT/U0nqXxj9GtJLkaPd4VR7t85iAbZ/L6TWLcZw+YW/PQG2fiYgeppRIG8nz2j+EZ/wCaq3r4IhRC+kc/SqTZLhEZN2jw6j3bo/1W/rFY/wCJ2fwXPUr/AHpLgkZ26T9f0ihbtzBE+g/OtYxsylSHl7te2Nlc+q/pWP8AjCEGEb4ikLGttHdPwrTYkjO7DLvboH3D8RVbXbsn3PnSt7U5q1lYO1aVGjPNnSJ2hI9351KUrdbp8qlY0a4Ol4dyJS4IIzPTlqXw6it7IKhlue4SCQPuSe66fu/TNOe1OAlJHvgSNv6jNIrHE40EaGBxMHT4bZtt/W1cnyVo61jDB+P4ZrTAgwwyCNivXyPMcjnzNXTxFuVGm4u48fz+hFaJcUj2bghZEZzbc+J3Q8j6ea/iUey0rIYdD3WG2P3Ty6HGxmhNvHY2qz0A8RaKn8MCY6TzHVPpWVi8VIYGIO3T/wCv08tuiDW76alEOu/VTzx9RzmkfEcOQZAAI5co8OqH5VrGSeGZSjWUdd2V2gbkMpCuo/5xnBk/DxpvxXBrfUXbRi4mQw3DCd+viJ6bV864LjPZtIEQRInb9V6H0ru+ye0Zi4gnHfQHLeI/eH0rl1NNwdo2hJSVMO4HtO3cUpc7lxSNatt46cTpI9c+dYNbBJ2yNJaYO0Z5DIIz1FY9s21uFbtu22sDJKgSp5jV97mDnIoJ+1kVFFwkc9WDtOHA5id/HwFa6epZz6mk1kK0W12hoXBPMxjngSDiOVCnilZ22jDCIAGR9elAP2raC9ec4OY8fPnS3jO21M6bc9WaAIx+ldCRlTG79okNAJJjHQctz6Z8aEudoINzLc85mOp2/rrSheMLj/vNKxsqsQPM4+VBX+ItjurNxjvjE84Ex6kk01Gx16M73bxki2JPONvU4pTxF+e89wmfuoY+LHf0FeJaZsHuj8KCT88A1twnCKD4/Fj5nl6U24xKUWzFHaO4oQHmZBI8z3j8q2ThttRnz29FH1NHDhgByU9ZyfX+fpWrWNIDSqg/ikfDGo/AedZS1fDRQ9M7VlmgKs8hPXqAMfI1q3DgMS59cRj5D1J8qsrO2LYMGe840gjwQZPrRqdkD3rjSeWqQOcQu/xAHjWEp7fk6/02jG+EK7bFo0Lq5E+6o9d/URRHD9ks41OSVB591Pnv8DTV7ioo7qiIy0YjmqRA8/nQF/jhvufxMd5Gw8PjU/ySfxVF7Ir5M2f2a4RdUczi2PQGW9T6UJeuhx3nYxEqMAcug/Kh2csYgsQOc49P1IFYuQACWmMQI/t8Jqow95E5+Gly8BESAdgBj05fWo1xt2IAPIzPwBn5ihzxETA09evqdz8qDvXvCT/XKtY6dmUpmt28NgJHicT6Y+tC3L2MmfoKwvXwf5/pQ7OTHT510x0znlqG/tupx8KFvXSTA+PKqhgTiSflNafs5OWPoK2UVHkwcm+DG2CTjJnflTe3wsL/AFvWPC2c7U4S3jwrLU1DSEBPaEGCMUxtcIm8wPGqX+HmjOBtlhpYSIqJSxZaieLwtvwqVf8AwluRPwqVFr0un4d32hcA2HcO45g+FIe1+ADDWgAYcjsR0PgalSuXT6N5AnCvr0qANUQpP3l5o3h0PKiLbLcUI06T7jHLKw3U9Y2nY1KlOXY4iosbNyV3HvDkwAn4wCQfQ8pbvaF9BcUAQAQdiCfDp4VKlVPiMuyY8uIiv2YJgAEGOsHeM7qenjVuzO0zbbE9InYjMTz6g/GpUrek45M+Hgf2ftGAu56nGZ+B+UUk7Y41LhJtyGO4jB+O21SpWUIJM0lJtCJrhLQIBG/Mj44+tbLdQ7TdYfi7qj0/QVKldm1HLZP2d3mW9F7oHnzNb2+GCKDvzAGJHid6lSsZSZooo2cgDvYExC7eX86JW0yrMhAemT+nxmvalZS6NI8hVu0QAQNM4DNDOfLkvxFbvwapl5LHae8+PPuKPKalSuacmmbxSNbl7SJyhzt3nI/iPujwWKGbjInG8c8nzJ/WpUpRV1ZU8cARZnaFHUnO3xx8Aaz1IMmWPqBP1PyqVK3MTC/xW42HQCPp+c0I9/pifjUqVtCKMpyYDf4mMZrNgd2MeVSpXVFLByybtmIaTCifE1deEnck/SpUq3jghZ5GPCdm7bRTW32YIqVK5ZyZ0Rigq12eAc9Kvc4GDIipUrBtmqSoGtWCWz1NOuF4ZOZgeX6VKlKbCIQLi8hjlUqVKg0P/9k=">
+				<h3>Islamic Studies</h3>
+			</div>
+		</div>
+	</div>
+    <center>
+    	<h1>Admission Form</h1>
+    </center>
+    <div align="center" class="admission_form">
+    	<form>
+    		<div class="adm_int">
+    			<label class="lable_text">Name</label>
+    			<input class="input_deg" type="text" name="">
+    		</div>
+    		<div class="adm_int">
+    			<label class="lable_text">Email</label>
+    			<input class="input_deg" type="text" name="">
+    		</div>
+    		<div class="adm_int">
+    			<label class="lable_text">Phone</label>
+    			<input class="input_deg" type="text" name="">
+    		</div>
+    		<div class="adm_int">
+    			<label class="lable_text">Messege</label>
+    			<textarea class="awen"></textarea>
+    		</div>
+    		<div class="adm_int">
+    			<input class="btn btn-primary" id="submit" type="submit" value="Apply">
+    		</div>
+    	</form>
+</div>
+<div class="container-fluid">
+       
+        <div class="row text-left bg-dark p-2 text-white my-3">
+          <div class="sec2 mt-2 col-lg-4 col-md-4 col-sm-12">
+           
+             <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>Educators</h3>
+             <p>Hardwork is the key to success</p>
+           <p> <i class="fa fa-envelope" aria-hidden="true"></i>  E-mail </p>
+           <p> <i class="fa fa-phone" aria-hidden="true"></i>  Contact-000-55-121 </p>
+           <i class="fa fa-facebook-official" aria-hidden="true"></i>  <i class="fa fa-twitter" aria-hidden="true"></i>    <i class="fa fa-instagram" aria-hidden="true"></i>
+            
+            
+          </div>
+          
+          
+          <div class="sec2 col-lg-4 col-md-4 mt-2 mb-2 col-sm-12 ">
+           
+             <h3>Background</h3>
+            <p>
+            	Educators was established in 1981 with the prime objective of providing quality education. WHGS has a student body of 7000+ with a well-integrated network of 11 branches located at different areas of Karachi.
+            </p>
+          </div>
+          
+          <div class="sec2 col-lg-4 col-md-4 col-sm-12 ">
+             <h3>Recent Posts</h3>
+            <p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaEoA5YSrK4EYU33C0vntqCzFLH0uAEwuCsfy6ugCc_H3nIID4QBwD2bWMECF9jxBUsLM&usqp=CAU" width="70" height="70"/><b> Educators </b> The Project of Beaconhouse
+             </p>
+            <p>
+            <img src="https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Mar-22-Teaching-Skills-All-Educators-Should-Foster_web.jpg" width="70" height="70"/><b>  How to make event</b>  established fact that reader
+             </p>
+          </div>
+       </div>
+    </div>
+</body>
+</html>
+
+
+
